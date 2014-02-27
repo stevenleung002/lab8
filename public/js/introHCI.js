@@ -13,6 +13,6 @@ function initializePage() {
 
 	$(".likeBtn").click(function(){
 		//alert('button clicked');
-		ga("send", "event", "Category", "Action");
+		ga("send", "event", "like", "click");
 	});
 }
